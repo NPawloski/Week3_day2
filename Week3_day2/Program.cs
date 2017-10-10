@@ -10,6 +10,16 @@ namespace Week3_day2
     {
         static void Main(string[] args)
         {
+            Boat BoatyMcBoatface = new Boat(3, "BoatyMcBoatface", 8.5);
+            BoatyMcBoatface.Move();
+
+            BoatyMcBoatface.BoatInfo();
+
+            Boat Boat2 = new Boat(14, "Boat 2", 36.7);
+            Boat2.BoatInfo();
+
+
+
         }
     }
 }
